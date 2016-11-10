@@ -6,7 +6,7 @@
 
 require 'digest'
 
-nodejs_npm 'sinopia' do
+nodejs_npm 'sinopia2' do
   version node['sinopia']['version']
   action :install
 end
