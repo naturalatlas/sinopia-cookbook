@@ -8,6 +8,7 @@ require 'digest'
 
 nodejs_npm 'sinopia2' do
   version node['sinopia']['version']
+  options ['--unsafe-perm']
   action :install
 end
 
